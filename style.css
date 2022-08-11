@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Poppins:wght@200;300;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, hsl(264, 24%, 84%), hsl(261, 28%, 49%));
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 15px;
+    color: rgb(28, 21, 61);
+}
+
+#nome, #nota1, #nota2{
+    display: block;
+    height: 45px;
+    width: 450px; 
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid rgb(197, 194, 194);
+    background-color: rgb(241, 228, 228);
+}
+
+input::placeholder{
+    color: rgb(137, 134, 138);
+    font-size: 15px;
+}
+
+#nome:hover, #nota1:hover, #nota2:hover{
+    background-color: rgb(213, 192, 219);
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#botao{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(94, 57, 116);
+    color: white;
+    cursor: pointer;
+    border: rgb(94, 57, 116);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#botao:hover{
+    background-color: rgb(44, 4, 109);
+}
+
+#alert{
+    text-align: center;
+}
